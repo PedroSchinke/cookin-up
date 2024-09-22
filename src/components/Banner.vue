@@ -22,55 +22,55 @@
 </template>
 
 <style scoped>
-    .banner {
-        padding: 4rem 7.5rem;
-        color: var(--cream);
+  .banner {
+    padding: 4rem 7.5rem;
+    color: var(--cream);
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 3.25rem;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3.25rem;
+  }
 
-    .logo {
+  .logo {
     height: 4.5rem;
     margin-bottom: 3rem;
-    }
+  }
 
-    .header-phrase {
+  .header-phrase {
     margin-bottom: 2rem;
-    }
+  }
 
-    .text-green {
+  .text-green {
     color: var(--green-medium, #3D6D4A);
-    }
+  }
 
-    .banner-image {
+  .banner-image {
     width: 35rem;
-    }
+  }
 
-    @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1300px) {
     .banner {
-        padding: 4rem 3.75rem;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+      padding: 4rem 3.75rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
     }
 
     .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
-    }
+  }
 
-    @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
     .banner {
-        padding: 4rem 1.5rem;
+      padding: 4rem 1.5rem;
     }
 
     .banner-image {
-        width: min(100%, 21.25rem);
+      width: min(100%, 21.25rem);
     }
-    }
+  }
 </style>
